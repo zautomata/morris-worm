@@ -23,6 +23,7 @@ struct usr {					/* sizeof(usr) == 58 */
 static struct usr *x27f28, *x27f2c;
 
 /* Crack some passwords. */
+void
 cracksome()
 {
     switch (cmode){
